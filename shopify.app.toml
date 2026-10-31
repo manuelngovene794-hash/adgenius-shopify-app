@@ -1,0 +1,14 @@
+client_id = "COLOQUE_SEU_CLIENT_ID_DO_PARTNERS"
+name = "AdGenius: AI Ads Copy & Text"
+handle = "adgenius-ai-ads-copy"
+application_url = "https://onrender.com"
+embedded = true
+
+[access_scopes]
+scopes = "read_products,write_products"
+
+[auth]
+redirect_urls = [
+  "https://onrender.com/auth/callback",
+  "https://onrender.com/auth/shopify/callback"
+]
