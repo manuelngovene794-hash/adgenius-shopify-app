@@ -1,0 +1,28 @@
+{
+  "name": "adgenius-shopify-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-node-adapter-start",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "@shopify/app": "^3.60.0",
+    "@shopify/polaris": "^13.0.0",
+    "@shopify/shopify-app-remix": "^3.4.0",
+    "@remix-run/node": "^2.12.0",
+    "@remix-run/react": "^2.12.0",
+    "@remix-run/serve": "^2.12.0",
+    "isomorphic-fetch": "^3.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.12.0",
+    "prisma": "^5.18.0",
+    "vite": "^5.4.0"
+  }
+}
